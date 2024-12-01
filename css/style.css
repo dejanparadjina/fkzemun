@@ -126,17 +126,19 @@
     border-radius: 10px;
 }
 #tabela{
-    height: 650px;
+    height: 750px;
     width: 100%;
     background-image: url('../images/Zemun_stadion.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
 }
 #tabela table{
     width: 900px;
-    margin-top: 30px;
     height: 450px;
     border-color: rgb(7, 1, 77);
     border-collapse: collapse;
@@ -161,7 +163,7 @@ th:last-child{
 #tab{
     display: flex;
     justify-content: center;
-    margin: 100px 100px;
+    margin: 0px 100px;
 }
 .ivica{
     border-bottom-left-radius: 10px;
@@ -169,18 +171,32 @@ th:last-child{
 .ivica2{
     border-bottom-right-radius: 10px;
 }
+#tabela h2{
+    text-align: center;
+    font-size: 35px;
+}
 #raspored img{
     margin-top: 30px;
     width: 410px;
 }
 #raspored{
     width: 100%;
-    height: 500px;
+    height: 620px;
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#raspored h2{
+    font-size: 35px;
+    padding-top: 50px;
+}
+#raspored_slike{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 85px;
 }
 .raspored1 img{
     width: 400px;
