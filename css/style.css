@@ -395,6 +395,9 @@ th:last-child{
     height: 400px;
     border-radius: 10px;
 }
+#mapa h1{
+    margin-bottom: 50px;
+}
 #forma{
     width: 600px;
     height: 470px;
@@ -414,10 +417,9 @@ form{
     border: 1px solid #ccc;
     border-radius: 10px;
 }
-#forma h1{
+#forma h2{
     text-align: center;
     font-size: 22px;
-    color: #333;
     margin-bottom: 10px;
 }
 #forma label{
